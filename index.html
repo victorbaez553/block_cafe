@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+    <meta name="descripcion" content="Pagina web de blog de cafe">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contactos</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin"> Blog de Café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+    <div class="contenedor contenido_principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="imagen/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+                    </picture>
+                    
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de Grano de Café</h4>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                        has roots in a piece of classical Latin literature from 45 BC, making it over
+                        2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College
+                        in Virginia, looked up one of the more obscure Latin words, consectetur, from a 
+                        Lorem Ipsum passage, and going through the cites of the word 
+                        in classical literature, discovered the undoubtable source</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="imagen/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3 deliciosas recetas de Café</h4>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                        has roots in a piece of classical Latin literature from 45 BC, making it over
+                        2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College
+                        in Virginia, looked up one of the more obscure Latin words, consectetur, from a 
+                        Lorem Ipsum passage, and going through the cites of the word 
+                        in classical literature, discovered the undoubtable source</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="imagen/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del Café</h4>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                        has roots in a piece of classical Latin literature from 45 BC, making it over
+                        2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College
+                        in Virginia, looked up one of the more obscure Latin words, consectetur, from a 
+                        Lorem Ipsum passage, and going through the cites of the word 
+                        in classical literature, discovered the undoubtable source</p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+        </main>
+        <aside class="asidebar">
+            <h3>Nuestros cursos y Talleres</h3>
+            <!--UL LISTA NO ORDENADA-->
+            <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Tecnicas de Extraccion de Café</h4>
+                    <p class="widget-curso__label">Precio:
+                        <samp class="widget-curso__info">Gratis</samp>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <samp class="widget-curso__info">20</samp>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">MAS INFORMACION</a>
+                </li>
+                <li class="widget-curso">
+                    <h4 class="no-margin">4 Recetas de Café para Principiantes</h4>
+                    <p class="widget-curso__label">Precio:
+                        <samp class="widget-curso__info">Gratis</samp>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <samp class="widget-curso__info">20</samp>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">MAS INFORMACION</a>
+                </li>
+            </ul>
+        </aside>
+
+    </div>
+    <FOOter class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contactos</a>
+                </nav>
+            </div>
+
+        </div>
+    </FOOter>
+    <script src="js/mordernizr.js"></script>
+</body>
+</html>
